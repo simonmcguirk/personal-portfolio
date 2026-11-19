@@ -1,0 +1,16 @@
+:root {
+    --color-background: #171B22;
+    --color-accent: #F4C542;
+    --color-text-primary: #F3F4F6;
+    --color-text-secondary: #A9B1BB;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    padding: 2rem;
+}
+
+h1 {
+    color: var(--color-accent);
+}

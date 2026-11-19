@@ -5,12 +5,39 @@
     --color-text-secondary: #A9B1BB;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--color-background);
     color: var(--color-text-primary);
     padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
 }
 
 h1 {
     color: var(--color-accent);
+}
+
+h2 {
+    color: var(--color-text-secondary);
+}
+
+.subtitle {
+    color: var(--color-text-secondary);
+    font-size: 1.25rem;
+}
+
+section {
+    margin-top: 3rem;
+}
+
+.project-card {
+    padding: 1.5rem;
+    border: 1px solid var(--color-text-secondary);
+    border-radius: 0.5rem;
 }
